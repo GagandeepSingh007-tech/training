@@ -119,7 +119,8 @@ Stop codes are either descriptive(text) or hexadecimal(numbers). They indicate w
 4. **SYSTEM_SERVICE_EXCEPTION:** Often caused by conflicting drivers or antivirus software.
 5. **WHEA_UNCORRECTABLE_ERROR:** Hardware-leve; error; indicates potential CPU or harware faiilure.
 
-### **Dump files:** Windows creates memory dump files (.dump) when a crash occurs. Use tools like BlueScreenView or WinDbg to read these files and pinpointing the exact driver or process that triggered the crash
+### **Dump files:** 
+Windows creates memory dump files (.dump) when a crash occurs. Use tools like BlueScreenView or WinDbg to read these files and pinpointing the exact driver or process that triggered the crash
 
 ### **Commmon Causes and Fixes:**
 1. **Drivers:** Frequently ate culprit  roll back recently updated drivers.
