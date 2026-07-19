@@ -56,15 +56,9 @@ To build structural content within the <body>, specific semantic tags are utiliz
 
 # 2. Introduction to HTML & Web Basics
 
-## Forms and Input types
-HTML forms collect the user information to send to a server for processing. The structural area is defined by the <form> tag, which can uses several key attributes
-* **action:** Specifies the file destination or URL where data is sent.
-* **method:** Controls how  data is sent or URL where data is sent. Making it visible. POST embeds data securily within the request body, keeping it hidden from the URL (required for logins, registrations and payments.
-* **autocomplete:** Configures the browser's autofill behavior to be ON or OFF.
-* **target:** Specifies where to display the response after submission.
-* **name:** Assigns an identifier name to the form.
+## HTML Form Input Elements
+Forms are critical for collecting user data. Here is a comprehensive reference directory of native HTML input types:
 
-## Input Types:
 | # | Type | Tag Code | Typical Meaning / Function |
 | :--- | :--- | :--- | :--- |
 | 1 | *Text* | type="text" | Enters a single line of standard text. |
@@ -86,119 +80,39 @@ HTML forms collect the user information to send to a server for processing. The 
 | 17 | *Range* | type="range" | Renders a draggable slider bounded by min and max limits. |
 | 18 | *Hidden* | type="hidden" | Stores internal administrative data hidden from the user interface. |
 
-```html
-<!DOCTYPE DOCTYPE html>
-<html>
-<head><title>Form Demo</title></head>
-<body>
-<form action="submit.html" method="post">
-  <fieldset>
-    <legend>Student Form</legend>
-    <label for="n">Name:</label>
-    <input type="text" id="n" required><br>
-    <label for="e">Email:</label>
-    <input type="email" id="e"><br>
-    <label for="p">Password:</label>
-    <input type="password" id="p"><br>
-    <label>Gender:</label>
-    <input type="radio" id="m" name="g"><label for="m">Male</label>
-    <input type="radio" id="f" name="g"><label for="f">Female</label><br>
-    <label><input type="checkbox"> Reading</label><br>
-    <label for="s">State:</label>
-    <select id="s">
-      <option>Punjab</option>
-    </select><br>
-    <label for="b">Bio:</label>
-    <textarea id="b" rows="2"></textarea><br>
-    <input type="submit" value="Submit">
-    <input type="reset" value="Reset">
-  </fieldset>
-</form>
-</body>
-</html>
-```
+---
 
-## Supplementary Form Elemnts
+## 🏗️ Supplementary Form Elements
 Beyond standard inputs, specialized tags build out complex layouts:
 
-*   **<label>:** Provides a description for an input field, expanding click target zones when linked using for and id attributes.
-*   **<textarea>:** Allocates a multi-line, scrollable text box for longer blocks like addresses or feedback.
-*   **<select> & <option> shadow:** Generates space-saving drop-down option choice menus.
-*   **<fieldset> & <legend>:** Groups related form elements within a visible border frame topped by an integrated title.
+*   *<label>:* Provides a description for an input field, expanding click target zones when linked using for and id attributes.
+*   *<textarea>:* Allocates a multi-line, scrollable text box for longer blocks like addresses or feedback.
+*   *<select> & <option>:* Generates space-saving drop-down option choice menus.
+*   *<fieldset> & <legend>:* Groups related form elements within a visible border frame topped by an integrated title.
 
 ---
 
-## Form Control Attributes
+## 🛠️ Form Control Attributes
 Validation rules and specific element behaviors are configured directly using attributes:
 
-*   **placeholder / value:** Displays temporary content hint text or sets a hard default value.
-*   **required / disabled:** Enforces fields as compulsory or disables them completely from data submission.
-*   **readonly:** Prevents users from altering the field content while keeping it viewable.
-*   **maxlength / minlength:** Binds maximum or minimum characters limit for text entries.
-*   **min / max / step:** Establishes boundaries and intervals for numeric and range controls.
-*   **checked / selected:** Pre-selects checkboxes, radio buttons, or dropdown list choices upon page load.
-*   **autofocus / multiple:** Grants immediate typing focus on page load or permits multiple file/email entries.
+*   *placeholder / value:* Displays temporary content hint text or sets a hard default value.
+*   *required / disabled:* Enforces fields as compulsory or disables them completely from data submission.
+*   *readonly:* Prevents users from altering the field content while keeping it viewable.
+*   *maxlength / minlength:* Binds maximum or minimum characters limit for text entries.
+*   *min / max / step:* Establishes boundaries and intervals for numeric and range controls.
+*   *checked / selected:* Pre-selects checkboxes, radio buttons, or dropdown list choices upon page load.
+*   *autofocus / multiple:* Grants immediate typing focus on page load or permits multiple file/email entries.
 
-## Semantic HTML Tags:
+---
 
+## 🏗️ Semantic HTML Tags
 Semantic elements clearly describe their meaning to both the browser and the developer, providing clear structural architecture to a webpage:
 
-*   **<header>:** Houses introductory elements of a page or section, typically containing main logos, branding, titles, or site-wide search tools.
-*   **<nav>:** Reserves a dedicated structural area specifically for primary website navigation links, signaling to screen readers where the site menu resides.
-*   **<section>:** Splits webpage layout into thematic, organized content blocks, acting as a container for grouping distinct content topics.
-*   **<article>:** Wraps independent, self-contained compositions meant to be independently reusable or distributable on their own.
-*   **<footer>:** Anchors base components at the bottom of a webpage or section, typically carrying copyright statements, legal notices, privacy links, and contact information.
-```html
-<!DOCTYPE html>
-<html>
-<head><title>Semantic Layout</title></head>
-<body>
-  <header>
-    <h1>GNDEC Web Basics</h1>
-    <nav>
-      <a href="#">Home</a> | <a href="#">About</a>
-    </nav>
-  </header>
-  
-  <section>
-    <article>
-      <h2>Semantic Layout Architecture</h2>
-      <p>Semantic tags describe their purpose to browsers and SEO tools.</p>
-    </article>
-  </section>
-  
-  <footer>
-    <p>&copy; 2026 GNDEC Ludhiana</p>
-  </footer>
-</body>
-</html>
-```
-# 3. Basic Styling Using inline & internal CSS
-
-## CSS:
-CSS (Cascadng Style Sheets) controls the visual presentation of a webpage (color, fonts, layout), While HTML provides the structure.
-
-## Inline CSS:
-Inline CSS applies unique styles directly to a single HTML element using the style attribute inside the elements opening tag.
-```CSS
-<h1 style="color:blue; text-align:center;">
-```
-## Internal CSS
-Internal CSS styles an entire single HTML document from one centralized location. It is declared inside inside a <style> tag olaces within the document <head> section.
-```CSS
-<head>
-  <style>
-    body{
-      background-color: #f4f4f4;
-      }
-    h1{
-      color: navy;
-    }
-  </style>
-</head>
-```
-
-## Personal Portfolio Website
+*   *<header>:* Houses introductory elements of a page or section, typically containing main logos, branding, titles, or site-wide search tools.
+*   *<nav>:* Reserves a dedicated structural area specifically for primary website navigation links, signaling to screen readers where the site menu resides.
+*   *<section>:* Splits webpage layout into thematic, organized content blocks, acting as a container for grouping distinct content topics.
+*   **`<article>`:** Wraps independent, self-contained compositions meant to be independently reusable or distributable on their own.
+*   **`<footer>`:** Anchors base components at the bottom of a webpage or section, typically carrying copyright statements, legal notices, privacy links, and contact information.
 
 ---
 
@@ -234,5 +148,3 @@ Internal CSS styles an entire single HTML document from one centralized location
 | `<span>` | An inline container used to style or manipulate small portions of text. |
 | `<footer>` | Represents the footer section of the webpage. |
 | `<img>` | Embeds images into the webpage. |
-
-
