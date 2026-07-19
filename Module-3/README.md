@@ -85,10 +85,10 @@ Forms are critical for collecting user data. Here is a comprehensive reference d
 ##  Supplementary Form Elements
 Beyond standard inputs, specialized tags build out complex layouts:
 
-*   **<label>:** Provides a description for an input field, expanding click target zones when linked using for and id attributes.
-*   **<textarea>:** Allocates a multi-line, scrollable text box for longer blocks like addresses or feedback.
-*   **<select> & <option>:** Generates space-saving drop-down option choice menus.
-*   **<fieldset> & <legend>:** Groups related form elements within a visible border frame topped by an integrated title.
+* **<label>:** Provides a description for an input field, expanding click target zones when linked using for and id attributes.
+* **<textarea>:** Allocates a multi-line, scrollable text box for longer blocks like addresses or feedback.
+* **<select> & <option>:** Generates space-saving drop-down option choice menus.
+* **<fieldset> & <legend>:** Groups related form elements within a visible border frame topped by an integrated title.
 
 ---
 
