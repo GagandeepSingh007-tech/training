@@ -4,15 +4,15 @@ Welcome to Module 3. This section contains my training notes on web form structu
 
 ---
 
-## 🧭 1. Introduction to HTML & Web Basics
+##  1. Introduction to HTML & Web Basics
 
-### 🌐 HTML
+###  HTML
 HyperText Markup Language is the standard markup language used to structure content on the web.
 
-### 🖥️ Browser Rendering
+###  Browser Rendering
 The browser fetches the raw HTML, parses the tags from top to bottom, builds the DOM (Document Object Model) tree, and renders it visually.
 
-### 🏗️ Structure of an HTML Document
+###  Structure of an HTML Document
 1. **`<!DOCTYPE html>`**: Declares modern HTML5.
 2. **`<html>`**: Root container.
 3. **`<head>`**: Holds the page metadata.
@@ -30,7 +30,7 @@ The browser fetches the raw HTML, parses the tags from top to bottom, builds the
 </body>
 </html>
 ```
-## 🏷️ HTML Tags
+##  HTML Tags
 To build structural content within the `<body>`, specific semantic tags are utilized.
 
 ### 1. Heading Elements (`<h1>` to `<h6>`)
@@ -96,7 +96,7 @@ Forms are critical for collecting user data. Here is a comprehensive reference d
 
 ---
 
-## 🏗️ Supplementary Form Elements
+##  Supplementary Form Elements
 Beyond standard inputs, specialized tags build out complex layouts:
 
 *   **`<label>`:** Provides a description for an input field, expanding click target zones when linked using `for` and `id` attributes.
@@ -119,7 +119,7 @@ Validation rules and specific element behaviors are configured directly using at
 
 ---
 
-## 🏗️ Semantic HTML Tags
+##  Semantic HTML Tags
 Semantic elements clearly describe their meaning to both the browser and the developer, providing clear structural architecture to a webpage:
 
 *   **`<header>`:** Houses introductory elements of a page or section, typically containing main logos, branding, titles, or site-wide search tools.
@@ -128,7 +128,7 @@ Semantic elements clearly describe their meaning to both the browser and the dev
 *   **`<article>`:** Wraps independent, self-contained compositions meant to be independently reusable or distributable on their own.
 *   **`<footer>`:** Anchors base components at the bottom of a webpage or section, typically carrying copyright.
 
-## 🎨 Basic Styling using inline & internal CSS
+##  Basic Styling using inline & internal CSS
 CSS (Cascading Style Sheets) controls the visual presentation of a webpage (color, fonts, layout), while HTML provides the structure.
 
 ### Inline CSS:
@@ -153,9 +153,9 @@ h1 {
 </style>
 </head>
 ```
-## 🌐 Personal Portfolio Website in HTML (multipage)
+##  Personal Portfolio Website in HTML (multipage)
 
-### 🏷️ Tags Used
+###  Tags Used
 
 | HTML Tag | Explanation |
 | :--- | :--- |
