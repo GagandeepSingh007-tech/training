@@ -56,7 +56,7 @@ To build structural content within the <body>, specific semantic tags are utiliz
 
 # 2. Introduction to HTML & Web Basics
 
-## HTML Form Input Elements
+## 📋 HTML Form Input Elements
 Forms are critical for collecting user data. Here is a comprehensive reference directory of native HTML input types:
 
 | # | Type | Tag Code | Typical Meaning / Function |
@@ -82,20 +82,20 @@ Forms are critical for collecting user data. Here is a comprehensive reference d
 
 ---
 
-## Supplementary Form Elements
+## 🏗️ Supplementary Form Elements
 Beyond standard inputs, specialized tags build out complex layouts:
 
-* **<label>:** Provides a description for an input field, expanding click target zones when linked using for and id attributes.
-* **<textarea>:** Allocates a multi-line, scrollable text box for longer blocks like addresses or feedback.
-* **<select> & <option>:** Generates space-saving drop-down option choice menus.
-* **<fieldset> & <legend>:** Groups related form elements within a visible border frame topped by an integrated title.
+*   *<label>:* Provides a description for an input field, expanding click target zones when linked using for and id attributes.
+*   *<textarea>:* Allocates a multi-line, scrollable text box for longer blocks like addresses or feedback.
+*   *<select> & <option>:* Generates space-saving drop-down option choice menus.
+*   *<fieldset> & <legend>:* Groups related form elements within a visible border frame topped by an integrated title.
 
 ---
 
-## Form Control Attributes
+## 🛠️ Form Control Attributes
 Validation rules and specific element behaviors are configured directly using attributes:
 
-*   **placeholder / value:** Displays temporary content hint text or sets a hard default value.
+*   *placeholder / value:* Displays temporary content hint text or sets a hard default value.
 *   *required / disabled:* Enforces fields as compulsory or disables them completely from data submission.
 *   *readonly:* Prevents users from altering the field content while keeping it viewable.
 *   *maxlength / minlength:* Binds maximum or minimum characters limit for text entries.
@@ -110,41 +110,4 @@ Semantic elements clearly describe their meaning to both the browser and the dev
 
 *   *<header>:* Houses introductory elements of a page or section, typically containing main logos, branding, titles, or site-wide search tools.
 *   *<nav>:* Reserves a dedicated structural area specifically for primary website navigation links, signaling to screen readers where the site menu resides.
-*   *<section>:* Splits webpage layout into thematic, organized content blocks, acting as a container for grouping distinct content topics.
-*   **`<article>`:** Wraps independent, self-contained compositions meant to be independently reusable or distributable on their own.
-*   **`<footer>`:** Anchors base components at the bottom of a webpage or section, typically carrying copyright statements, legal notices, privacy links, and contact information.
-
----
-
-## 🌐 Personal Portfolio Website in HTML (multipage)
-
-### 🏷️ Tags Used
-
-| HTML Tag | Explanation |
-| :--- | :--- |
-| `<!DOCTYPE html>` | Declares the document as an HTML 5 document. |
-| `<html>` | The root element that contains the entire HTML page. |
-| `<head>` | Contains metadata, title, styles, and other information about the webpage. |
-| `<meta>` | Defines metadata such as character encoding and viewport settings. |
-| `<title>` | Sets the title of the webpage displayed on the browser tab. |
-| `<style>` | Contains internal CSS used to design and format the webpage. |
-| `<body>` | Contains all the visible content displayed on the webpage. |
-| `<nav>` | Creates a navigation section with links to different parts of the page. |
-| `<h1>` | Defines the main heading of a section. |
-| `<h2>` | Defines a second-level heading. |
-| `<h3>` | Defines the third-level heading. |
-| `<a>` | Creates a hyperlink to other pages, sections, or email addresses. |
-| `<div>` | A container used to group HTML elements for styling and layout. |
-| `<p>` | Defines a paragraph of text. |
-| `<pre>` | Displays preformatted text while preserving spaces and line breaks. |
-| `<br>` | Inserts a single line break. |
-| `<section>` | Group related content into separate section of the webpage. |
-| `<table>` | Creates a table to display data in rows and columns. |
-| `<thead>` | Groups header section of a table. |
-| `<tbody>` | Groups the main content of the table. |
-| `<tr>` | Defines a row in table. |
-| `<th>` | Defines a table header cell. |
-| `<td>` | Defines a table data cell. |
-| `<span>` | An inline container used to style or manipulate small portions of text. |
-| `<footer>` | Represents the footer section of the webpage. |
-| `<img>` | Embeds images into the webpage. |
+*   *<section>:* Splits webpage layout into thematic, organized content blocks, acting as a container for grouping distinct content topics
