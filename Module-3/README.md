@@ -82,20 +82,20 @@ Forms are critical for collecting user data. Here is a comprehensive reference d
 
 ---
 
-## 🏗️ Supplementary Form Elements
+##  Supplementary Form Elements
 Beyond standard inputs, specialized tags build out complex layouts:
 
-*   *<label>:* Provides a description for an input field, expanding click target zones when linked using for and id attributes.
-*   *<textarea>:* Allocates a multi-line, scrollable text box for longer blocks like addresses or feedback.
-*   *<select> & <option>:* Generates space-saving drop-down option choice menus.
-*   *<fieldset> & <legend>:* Groups related form elements within a visible border frame topped by an integrated title.
+*   **<label>:** Provides a description for an input field, expanding click target zones when linked using for and id attributes.
+*   **<textarea>:** Allocates a multi-line, scrollable text box for longer blocks like addresses or feedback.
+*   **<select> & <option>:** Generates space-saving drop-down option choice menus.
+*   **<fieldset> & <legend>:** Groups related form elements within a visible border frame topped by an integrated title.
 
 ---
 
 ## 🛠️ Form Control Attributes
 Validation rules and specific element behaviors are configured directly using attributes:
 
-*   *placeholder / value:* Displays temporary content hint text or sets a hard default value.
+*   **placeholder / value:** Displays temporary content hint text or sets a hard default value.
 *   *required / disabled:* Enforces fields as compulsory or disables them completely from data submission.
 *   *readonly:* Prevents users from altering the field content while keeping it viewable.
 *   *maxlength / minlength:* Binds maximum or minimum characters limit for text entries.
