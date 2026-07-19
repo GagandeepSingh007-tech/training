@@ -129,14 +129,19 @@ Stop codes are either descriptive(text) or hexadecimal(numbers). They indicate w
 
 # 3. Software/System Troubleshooting
 
-## **Safe mode:** A diagnostic startup environment that runs on a minimal set of essential files, drivers, and core services. It isolates the system by disabling non-essential software, start-up applications, and network drivers to contrilled zone for advanced recovery.
+## **Safe mode:**
+A diagnostic startup environment that runs on a minimal set of essential files, drivers, and core services. It isolates the system by disabling non-essential software, start-up applications, and network drivers to contrilled zone for advanced recovery.
 
-## **System Restore:** With system restore we can revert on out PC's state to a previous point inn time. This can be particularly usefult when troubleshooting issues caused by recent changes, such as software installation, driver updates or system settings modifications. By using system restore, we can undo these changes without affecting our personal data, providing a safe way to restore problems without losing important data.
+## **System Restore:** 
+With system restore we can revert on out PC's state to a previous point inn time. This can be particularly usefult when troubleshooting issues caused by recent changes, such as software installation, driver updates or system settings modifications. By using system restore, we can undo these changes without affecting our personal data, providing a safe way to restore problems without losing important data.
 
-## **System Recovery:** When windows fails to boot or perform properly, several built in environments can be used to diagnose and repair the system.
+## **System Recovery:**
+When windows fails to boot or perform properly, several built in environments can be used to diagnose and repair the system.
 1. **Windows Recovery Environment (WinRe):** Access this by repeatedly restarting your PC, using the settings menu, or booting from a dedicatd recovery drive. It feature tools like startup repair for fixing boot issues and system restore for rolling back sysytem settings to a previous, stable state.
-2. **System File Checker ((SFC):** A command-line utility used to scan and restore corrupted windows system files. Run sfc/scannow via the command prompt to resolve missing or broken system components.
-3. **Check Disk (chkdsk):** A tool that scan our hard drive's file system integrity and fixes physical or logical disk errors. Run chkdsk/r to identify and recover bad sectors.
+2. **System File Checker ((SFC):**
+3.  A command-line utility used to scan and restore corrupted windows system files. Run sfc/scannow via the command prompt to resolve missing or broken system components.
+4. **Check Disk (chkdsk):**
+5.  A tool that scan our hard drive's file system integrity and fixes physical or logical disk errors. Run chkdsk/r to identify and recover bad sectors.
 
 ## OD Repair in windows and linux
 Operating syatem (OS) repair is the process of identifying and fixing problems that prevent on operting system from functioning correctly. Common issues include corrupted system files, boot failure, malware infections, driver configuration.
@@ -155,9 +160,11 @@ Operating syatem (OS) repair is the process of identifying and fixing problems t
 4. Kernel problems
 5. Incorrect configuration files
 
-### **Windows repair stretegy:** Employs a progression of tools starting from automated starting automated startup Repair, rolling back changes via system restore, running SFC and DISM commands, checking for drive issues with CHKDSK, and execute a complete system reset or re-installation as a final resort.
+### **Windows repair stretegy:**
+Employs a progression of tools starting from automated starting automated startup Repair, rolling back changes via system restore, running SFC and DISM commands, checking for drive issues with CHKDSK, and execute a complete system reset or re-installation as a final resort.
 
-### **LINUX repair stretegy:** Relies heavily on running fsck to repair system structures, executing terminal utilities for package, repair, restoring the GRUB architecture, or booting into a live USB to manually fix partitions and recover data blacks.
+### **LINUX repair stretegy:** 
+Relies heavily on running fsck to repair system structures, executing terminal utilities for package, repair, restoring the GRUB architecture, or booting into a live USB to manually fix partitions and recover data blacks.
 
 ## **Virus/Malware Symptoms:**
 1. Slow computer performance.
@@ -193,7 +200,8 @@ Operating syatem (OS) repair is the process of identifying and fixing problems t
 6. Driver compatibility problems after OS updates.
 7. Error messages such as "Device Cannot start" or "Driver not installed.
 
-### **Device Manager:** Device manager is a built in windows utility that allows users to view, manage, and troubleshoot hardware devices and their drivers.
+### **Device Manager:**
+Device manager is a built in windows utility that allows users to view, manage, and troubleshoot hardware devices and their drivers.
 * **How to open Device Manager?**
   1. Press windows + x --> Device Manager
   2. or press windows + R, type devmgmt.msm, and press Enter.
@@ -206,7 +214,8 @@ Operating syatem (OS) repair is the process of identifying and fixing problems t
   5. Enable or disable hardware devices.
 
 ## **Disk Errors and Formatting Utilities:**
-### **Disk errors:** Disk errors are the problems that affect the storage device (HHD or SSD) or its file system leading to data corruption, slow performance, or failure to access files.
+### **Disk errors:**
+Disk errors are the problems that affect the storage device (HHD or SSD) or its file system leading to data corruption, slow performance, or failure to access files.
 
 ### **Symptoms of disk errors:**
 1. Slow system performance.
@@ -222,30 +231,37 @@ Operating syatem (OS) repair is the process of identifying and fixing problems t
 4.  Check storage cables and connections.
 5.  Replace the storage device if it has severe hardware damage.
 
-### **Formatting Utilities:** Formatting is the process of preparing a storage device for use by creating a file system and removing exixting dara.
+### **Formatting Utilities:**
+Formatting is the process of preparing a storage device for use by creating a file system and removing exixting dara.
 
 ### **Types of Formatting:**
 1. **Quick format:** Rapidly clears a driver's file tracking index to make the space available, leaving the underlying data intact and potentially recoverable.
 2. **Full format:** Completely erases all existing data and check the entire surface for physical bad sectors, making the process slower.
 
-# Network Basics
+# 4. Network Basics
 
-## **IP Adressing:** IP adressing is an unique logical address assignes to every device on a network. It works ai OSI layer 3 (Network layer)
+## **IP Adressing:**
+IP adressing is an unique logical address assignes to every device on a network. It works ai OSI layer 3 (Network layer)
 * **Usage:** Used to identify devices, send requests, and transfer data across different networks.
 
-## **Subnetting:** Subnetting is the process of dividing a layer network reange into smaller networks.
+## **Subnetting:**
+Subnetting is the process of dividing a layer network reange into smaller networks.
 * **usage:** Used in schools, offices, colleges, companies, and data centres to manage IP addresses efficiently, reduce traffic, and save address space.
 
-## **Default gateway:** The local router interface configured with its own IP address.
+## **Default gateway:** 
+The local router interface configured with its own IP address.
 * **Usage:** Used as the main dooe for traffic to leave the local netwok and communicate with outside networks like Google or Facebook.
 
-## **MAC address:** A permanent, unchangable 12-character physical hardware address burned into a device's network interface card.
+## **MAC address:**
+A permanent, unchangable 12-character physical hardware address burned into a device's network interface card.
 * **Usage:** Used at the local level (layer 2) to identify exactly who is sending and receiving data with a local network segment.
 
-## **DHCP (Dynamics Host Configuration Protocol):** DHCP is an automated management provision protocol.
+## **DHCP (Dynamics Host Configuration Protocol):**
+DHCP is an automated management provision protocol.
 * **Usage:** Used to automatically assign temporary IP addresses, subnet masks, default gateways, and DNS server details to devices when they connect.
 
-## **DNS (DOmain Name System):** DNS is the phone book of the global internet.
+## **DNS (DOmain Name System):** 
+DNS is the phone book of the global internet.
 * **Usage:** Used to translate human-readable text domain names (like google.com) into numeric IP address so devices can locate websites.
 
 ## **Types of Cables and Connectors:**
@@ -303,7 +319,7 @@ Operating syatem (OS) repair is the process of identifying and fixing problems t
     3. **Miswire:** Wring wire sequence
     4. **Split pair:** Connectivity is correct but data transition is poor due to crosstalk.
    
-# Network Troubleshooting
+# 5. Network Troubleshooting
 
 ## **Diagnosing Connectivity Issues:**
 1. **Ping diagnistics:** Mastered the use of ICMP packet requests to end-to-end logical connectivity and measure latency between a local and a remote target.
@@ -312,7 +328,8 @@ Operating syatem (OS) repair is the process of identifying and fixing problems t
    * **`ipconfig` (Windows environments):** To view IPV4/IP6 addresses,, subnet marks, and default gateways.
    * **`ifconfig` (Unix/Linux environments):** To audit activate interface parameters and hardware MAC addresses.
 
-## **Resolving IP conflicts and DHCP Errors**
+## 
+**Resolving IP conflicts and DHCP Errors**
 1. **IP conflict Migration:** Developed techinques to detect and isolate duplicate IP address assignments on a local subnet thar causes intermittent device drops and routing errors.
 2. **DHCP Troubleshooting:** Analyzed dynamics address allocation failure, specially identifying when a client falls back to an APIPA address (169.254.x)
 3. **Lease Renewal:** Practices manuals with release and renewal procedures to force communication with the DHCP server and obtain valid configuration.
