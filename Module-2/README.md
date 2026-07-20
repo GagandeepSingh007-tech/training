@@ -347,5 +347,5 @@ DNS is the phone book of the global internet.
 ## **Firewall and Antivirus Blocking Checks**
 1. **Access Control Audits:** Evaluated scenarios where physical data - lik layers are fully operational, but application traffic is dropped at the host level.
 2. **Rule Inspection:** Conducted systematic checks inside local software firewalls and antivirus security suites to identify over - aggressive security polocies, blocklisted ports, or  false - positive restrictions blocking legimate network traffic.
-3. 
+
   
